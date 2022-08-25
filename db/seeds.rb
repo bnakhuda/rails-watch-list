@@ -5,3 +5,12 @@
 #
 #   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
 #   Character.create(name: "Luke", movie: movies.first)
+
+require 'faker'
+
+  # Movie.create!(
+  #   title: Faker::Movie.title,
+  #   overview: Faker::Movie.quote,
+  #   poster_url:
+  #   rating:
+  # )
